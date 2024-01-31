@@ -30,19 +30,19 @@ Connect to database using credentials defined at .env
 
 ## MySQL
 
-| name                    | description                                     | folder                                   |
-| ----------------------- | ----------------------------------------------- | ---------------------------------------- |
-| Create table            | Create a table example                          | [link](/scripts/mysql/create-table.sql)  |
-| Delete record           | Deleting a record from table example            | [link](/scripts/mysql/delete.sql)        |
-| Inner join              | Joining tables with inner join example          | [link](/scripts/mysql/inner-join.sql)    |
-| Insert record           | Inserting a record at table example             | [link](/scripts/mysql/insert.sql)        |
-| Left join               | Joining tables with left join example           | [link](/scripts/mysql/left-join.sql)     |
-| Limit and Offset        | Selecting records with limit and offset example | [link](/scripts/mysql/limit-offset.sql)  |
-| Right join              | Joining tables with right join example          | [link](/scripts/mysql/right-join.sql)    |
-| Rename fields at select | Renaming fields at select example               | [link](/scripts/mysql/select-rename.sql) |
-| Select records          | Selecting records from table example            | [link](/scripts/mysql/select.sql)        |
-| Update records          | Updating records from table example             | [link](/scripts/mysql/update.sql)        |
-| Transactions            | Transactions example                            | [link](/scripts/mysql/transactions.sql)  |
+| name                    | description                                     | folder                                          |
+| ----------------------- | ----------------------------------------------- | ----------------------------------------------- |
+| Create table            | Create a table example                          | [See example](/scripts/mysql/create-table.sql)  |
+| Delete record           | Deleting a record from table example            | [See example](/scripts/mysql/delete.sql)        |
+| Inner join              | Joining tables with inner join example          | [See example](/scripts/mysql/inner-join.sql)    |
+| Insert record           | Inserting a record at table example             | [See example](/scripts/mysql/insert.sql)        |
+| Left join               | Joining tables with left join example           | [See example](/scripts/mysql/left-join.sql)     |
+| Limit and Offset        | Selecting records with limit and offset example | [See example](/scripts/mysql/limit-offset.sql)  |
+| Right join              | Joining tables with right join example          | [See example](/scripts/mysql/right-join.sql)    |
+| Rename fields at select | Renaming fields at select example               | [See example](/scripts/mysql/select-rename.sql) |
+| Select records          | Selecting records from table example            | [See example](/scripts/mysql/select.sql)        |
+| Update records          | Updating records from table example             | [See example](/scripts/mysql/update.sql)        |
+| Transactions            | Transactions example                            | [See example](/scripts/mysql/transactions.sql)  |
 
 # Stop project
 
