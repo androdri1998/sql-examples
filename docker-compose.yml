@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  mysqldb:
+    image: mysql:5.7
+    container_name: "mysqldb"
+    restart: unless-stopped
+    env_file: ./.env
+    environment:
+      - MYSQL_DATABASE=$MYSQL_DATABASE
+      - MYSQL_USER=$MYSQL_USER
+      - MYSQL_PASSWORD=$MYSQL_PASSWORD
+      - MYSQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD
+    ports:
+      - $MYSQL_PORT:$MYSQL_PORT
+    volumes:
+      - ./volumes/database:/var/lib/mysql
