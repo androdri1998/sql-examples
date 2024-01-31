@@ -33,15 +33,15 @@ Connect to database using credentials defined at .env
 | name                    | description                                     | folder                                          |
 | ----------------------- | ----------------------------------------------- | ----------------------------------------------- |
 | Create table            | Create a table example                          | [See example](/scripts/mysql/create-table.sql)  |
-| Delete record           | Deleting a record from table example            | [See example](/scripts/mysql/delete.sql)        |
-| Inner join              | Joining tables with inner join example          | [See example](/scripts/mysql/inner-join.sql)    |
-| Insert record           | Inserting a record at table example             | [See example](/scripts/mysql/insert.sql)        |
-| Left join               | Joining tables with left join example           | [See example](/scripts/mysql/left-join.sql)     |
-| Limit and Offset        | Selecting records with limit and offset example | [See example](/scripts/mysql/limit-offset.sql)  |
-| Right join              | Joining tables with right join example          | [See example](/scripts/mysql/right-join.sql)    |
-| Rename fields at select | Renaming fields at select example               | [See example](/scripts/mysql/select-rename.sql) |
 | Select records          | Selecting records from table example            | [See example](/scripts/mysql/select.sql)        |
+| Rename fields at select | Renaming fields at select example               | [See example](/scripts/mysql/select-rename.sql) |
+| Limit and Offset        | Selecting records with limit and offset example | [See example](/scripts/mysql/limit-offset.sql)  |
+| Delete record           | Deleting a record from table example            | [See example](/scripts/mysql/delete.sql)        |
+| Insert record           | Inserting a record at table example             | [See example](/scripts/mysql/insert.sql)        |
 | Update records          | Updating records from table example             | [See example](/scripts/mysql/update.sql)        |
+| Left join               | Joining tables with left join example           | [See example](/scripts/mysql/left-join.sql)     |
+| Inner join              | Joining tables with inner join example          | [See example](/scripts/mysql/inner-join.sql)    |
+| Right join              | Joining tables with right join example          | [See example](/scripts/mysql/right-join.sql)    |
 | Transactions            | Transactions example                            | [See example](/scripts/mysql/transactions.sql)  |
 
 # Stop project
