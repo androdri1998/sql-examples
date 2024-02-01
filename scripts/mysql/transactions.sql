@@ -52,7 +52,11 @@ VALUES(
 
 UPDATE products SET name='object 1' WHERE id=1;
 
-SELECT * FROM products p;
+SELECT 
+	p.id,
+	p.name,
+	p.description
+FROM products p;
 
 -- OUTPUT
 -- "id","name","description"
@@ -66,7 +70,11 @@ SELECT * FROM products p;
 
 ROLLBACK;
 
-SELECT * FROM products p;
+SELECT 
+	p.id,
+	p.name,
+	p.description
+FROM products p;
 
 -- OUTPUT
 -- "id","name","description"
