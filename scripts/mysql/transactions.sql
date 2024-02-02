@@ -47,10 +47,10 @@ INSERT INTO products(
   name,
   description)
 VALUES(
-  'object 6',
-  'simple description to object 6');
+  'object 7',
+  'simple description to object 7');
 
-UPDATE products SET name='object 1' WHERE id=1;
+UPDATE products SET name='new name object' WHERE id=1;
 
 SELECT 
 	p.id,
@@ -60,13 +60,12 @@ FROM products p;
 
 -- OUTPUT
 -- "id","name","description"
--- 1,object 1,simple description of object 1
+-- 1,new name object,simple description of object 1
 -- 2,object 2,simple description of object 2
 -- 4,object 4,simple description of object 4
 -- 5,object 5,simple description of object 5
 -- 12,object 6,simple description to object 6
 -- 13,object 7,simple description to object 7
-
 
 ROLLBACK;
 
