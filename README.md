@@ -4,10 +4,6 @@ This is a project to practice examples of sql scripts
 
 # Setup application
 
-## Start database container
-
-Run `$ docker-compose up -d`
-
 ## Create a .env file
 
 Create a .env file at root directory, there's a .env.example to be used as a draft and model.
@@ -21,6 +17,10 @@ MYSQL_PASSWORD=[MYSQL_PASSWORD]
 MYSQL_ROOT_PASSWORD=[MYSQL_ROOT_PASSWORD]
 MYSQL_PORT=[MYSQL_PORT]
 ```
+
+## Start database container
+
+Run `$ docker-compose up -d`
 
 ## Connect to database
 
