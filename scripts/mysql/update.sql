@@ -11,3 +11,7 @@ FROM products p WHERE id=1;
 -- OUTPUT
 -- "id","name","description"
 -- 1,new object 1,simple description of object 1
+
+UPDATE products
+SET discount_product = 1 
+WHERE id IN (2,4,5);

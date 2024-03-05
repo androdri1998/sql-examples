@@ -15,3 +15,13 @@ CREATE TABLE stock(
 
   FOREIGN KEY(productId) REFERENCES products(id)
 );
+
+CREATE TABLE firstnames(
+	id INT PRIMARY KEY auto_increment,
+	name varchar(255) not null
+);
+
+CREATE TABLE lastnames(
+	id INT PRIMARY KEY auto_increment,
+	lastname VARCHAR(255) NOT NULL
+);
